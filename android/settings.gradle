@@ -1,0 +1,5 @@
+rootProject.name = 'RNSecKeyDemo'
+include ':RNSecKey'
+project(':RNSecKey').projectDir = new File(rootProject.projectDir, '../node_modules/RNSecKey/android')
+
+include ':app'
